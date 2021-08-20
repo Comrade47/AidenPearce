@@ -1,0 +1,1097 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.container{
+    max-width: 1170px;
+    margin: 0px auto;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+body {
+	font-family: "Quicksand", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.8;
+	color: rgba(0, 0, 0, 0.7);
+}
+section{
+    width: 80%;
+    float: right;
+    
+}
+/* ============================
+    Banner Part Starts
+===========================*/
+.menubar{
+    width: 20%;
+    padding: 3rem 1.5rem;
+    height: 100vh;
+    background-color:#f2f3f7 ;
+    position: fixed;
+    left: 0px;
+
+}
+.menu-header{
+    width: 100%;
+    text-align: center;
+    
+}
+.menu-header .profile-img{
+    width: 100%;
+}
+.menu-header .profile-img img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.menu-header .menu-text{
+    margin-top: 1.5rem;
+}
+.menu-header .menu-text h2{
+    font-weight: 700;
+    color: #000;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+.menu-header .menu-text p{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.menu-nav{
+    text-align: center;
+    width: 100%;
+    
+}
+.menu-nav nav{
+    width: 100%;
+    padding-top: 3rem;
+}
+.menu-nav nav ul{
+    width: 100%;
+}
+.menu-nav nav ul li{
+    width: 100%;
+    display: block;
+    margin-top: 1.5rem;
+}
+.menu-nav nav ul li a{
+    display: inline-block;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.menu-nav nav ul li a:hover{
+    color: rgba(0,0,0,1);
+}
+.menu-nav nav ul li a:hover:after{
+    width: 100%;
+}
+.menu-nav nav ul li a:after{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    width: 0%;
+    height: 0.1rem;
+    background-color: #2c98f0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+/* ============================
+    Banner Part ends
+===========================*/
+/* ============================
+    banner Part Starts
+===========================*/
+#banner{
+    width: 80%;
+    float: right;
+}
+.banner-slider{
+    width: 100%;
+}
+.banner{
+    padding: 7rem 2rem;
+    width: 100%;
+    background: url(../images/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-2{
+    padding: 7rem 2rem;
+    width: 100%;
+    background: url(../images/banner-2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-texts{
+    padding: 14rem 0rem;
+}
+.banner-texts h1{
+    font-size: 7rem;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    line-height: 8rem;
+}
+.banner-texts .btn{
+    margin-top:4rem;
+}
+.banner-texts .btn a{
+    display: inline-block;
+    padding: 1rem;
+    letter-spacing: 0.8rem;
+    border: 0.2rem solid #000;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+}
+.nav-icon{
+    display: none;
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    z-index: 999;
+}
+.nav-icon i{
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+/* ============================
+    banner Part ends
+===========================*/
+
+/* ============================
+    about-us Part Starts
+===========================*/
+#about-us{
+    padding: 5rem 2rem;
+
+}
+.common-header {
+    text-transform: uppercase;
+}
+.common-header p{
+    letter-spacing: 0.8rem;
+}
+.common-header h3{
+    letter-spacing: 0.2rem;
+    font-size: 2.7rem;
+    color:rgba(0,0,0,1);
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.about-text{
+    margin-top: 3rem;
+}
+.about-text p span{
+    color: #000;
+    font-weight: 700;
+}
+.about-text p{
+    padding: 1rem 0rem;
+}
+.my-skills .skill-col {
+    padding: 2rem;
+    width: 20%;
+    box-shadow: 0.2rem 0.3rem 0.3rem 0rem rgba(0,0,0,0.5);
+    position: relative;
+    margin: 0rem 1.5rem;
+}
+.my-skills{
+    display: flex;
+    margin: 4rem 0rem;
+}
+.my-skills .skill-col:after{
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 0.3rem;
+    background-color: #2c98f0;
+}
+.my-skills .skill-col:nth-child(2):after{
+    background-color: #ec5453;
+}
+.my-skills .skill-col:nth-child(2) a{
+    color: #ec5453;
+}
+.my-skills .skill-col:nth-child(3) a{
+    color: #f9bf3f;
+}
+.my-skills .skill-col:nth-child(3):after{
+    background-color: #f9bf3f;
+}
+.my-skills .skill-col:last-child:after{
+    background-color: #a84cb8;
+}
+.my-skills .skill-col:last-child a{
+    color:#a84cb8 ;
+}
+.my-skills .skill-col a{
+    font-size: 3rem;
+    color: #2c98f0;
+}
+.my-skills .skill-col h3{
+    color: rgba(0,0,0,1);
+    padding-bottom: 2rem;
+}
+.hire {
+    padding: 2rem;
+    background-color: #f9bf3f;
+}
+.hire h3{
+    color: #000;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.hire a{
+    font-size: 1.4rem;
+    color: #000;
+    display: inline-block;
+    padding: 1rem;
+    border: 0.1rem solid #000;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+}
+/* ============================
+    about-us Part ends
+===========================*/
+/* ============================
+    Expertise Part Starts
+===========================*/
+#expertise{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+}
+.expertise-row{
+    margin-top:7rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.expertise-col{
+    padding:2rem 3rem;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0.3rem 0.2rem 0.1rem 0.2rem rgba(0,0,0,0.5);
+    margin: 2.5rem 1.5rem;
+}
+.expertise-col:after{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    width: 100%;
+    height: 0.3rem;
+    background-color: #2c98f0;
+}
+.expertise-col:nth-child(2) .icon i{
+    background-color: #ec5453;
+}
+.expertise-col:nth-child(2):after{
+    background-color: #ec5453;
+}
+.expertise-col:nth-child(3):after{
+    background-color: #f9bf3f;
+}
+.expertise-col:nth-child(3) .icon i{
+    background-color: #f9bf3f;
+}
+.expertise-col:nth-child(4):after{
+    background-color: #a84cb8;
+}
+.expertise-col:nth-child(4) .icon i{
+    background-color: #a84cb8;
+}
+.expertise-col:nth-child(5):after{
+    background-color: #2fa499;
+}
+.expertise-col:nth-child(5) .icon i{
+    background-color: #2fa499;
+}
+.expertise-col:last-child:after{
+    background-color: #4054b2;
+}
+.expertise-col:last-child .icon i{
+    background-color: #4054b2;
+}
+.expertise-col h3{
+    color: #000;
+    margin-top: 3rem;
+    position: relative;
+}
+.expertise-col p{
+    margin-top: 2rem;
+}
+.expertise-col .icon{
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.expertise-col .icon i{
+    font-size: 2rem;
+    color: white;
+    padding: 3rem 3rem;
+    background-color: #2c98f0;
+    position: relative;
+    z-index: 299;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ============================
+    Expertise Part ends
+===========================*/
+/* ============================
+    project Part Starts
+===========================*/
+#project{
+    width: 80%;
+    float: right;
+    padding: 3rem 0rem;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),
+    url(../images/banner-3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-row{
+    display: flex;
+    justify-content: space-around;
+}
+.project-col{
+    width: 20%;
+    color: #fff;
+    text-align: center;
+
+}
+.project-col h3{
+    font-size: 5rem;
+}
+/* ============================
+    project Part ends
+===========================*/
+/* ============================
+    skill Part Starts
+===========================*/
+#skill{
+    padding: 5rem 2rem;
+}
+#skill-top{
+    margin-top: 3rem;
+}
+.skill-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.skill-col-2{
+    position: relative;
+    width: 45%;
+    display: flex;
+    margin: 1.5rem;
+    justify-content: space-between;
+}
+.skill-col-2:after{
+    position: absolute;
+    left: 0px;
+    content: '';
+    bottom: -1rem;
+    background-color: rgba(238, 229, 229, 0.6);
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.skill-col-2:nth-child(2):before{
+    background-color: #ec5453;
+    width: 60%;
+}
+.skill-col-2:nth-child(3):before{
+    background-color: #a84cb8;
+    width: 85%;
+}
+.skill-col-2:nth-child(4):before{
+    background-color: #4054b2;
+    width: 70%;
+}
+.skill-col-2:nth-child(5):before{
+    background-color: #2fa499;
+    width: 75%;
+}
+.skill-col-2:last-child:before{
+    background-color: #f9bf3f
+}
+.skill-col-2:before{
+    position: absolute;
+    left: 0px;
+    content: '';
+    bottom: -1rem;
+    background-color: #2c98f0;
+    z-index: 1;
+    width: 80%;
+    height: 0.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+/* ============================
+    skill Part ends
+===========================*/
+/* ============================
+    experience Part Starts
+===========================*/
+#experience{
+    padding: 7rem 2rem;
+}
+
+.experience-col{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.experience-col .ex-icon{
+    position: relative;
+}
+.experience-col .ex-icon::after {
+	position: absolute;
+	content: '';
+	bottom: -19px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.3rem;
+	height: 88%;
+	background-color: #d5d6db;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+.experience-col .ex-icon i{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 0.3rem solid #d5d6db;
+    background-color: #2c98f0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.experience-col:nth-child(2) .ex-icon i{
+    background-color: #ec5453;
+}
+.experience-col:nth-child(3) .ex-icon i{
+    background-color: #f9bf3f;
+}
+.experience-col:nth-child(4) .ex-icon i{
+    background-color: #4054b2;
+}
+.experience-col:nth-child(5) .ex-icon i{
+    background-color: #2fa499;
+}
+.experience-col .ex-text{
+    margin-left: 2rem;
+    padding: 2rem;
+    background-color: #f2f3f7;
+}
+.experience-col .ex-text h3{
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+.experience-col .ex-text p{
+    margin-top: 2.5rem;
+}
+/* ============================
+    experience Part ends
+===========================*/
+
+/* ============================
+    work Part Starts
+===========================*/
+#work{
+    padding: 5rem 2rem;
+}
+.work-nav{
+    margin:2rem 0rem;
+}
+.work-nav ul{
+    display: flex;
+}
+.work-nav ul li a{
+    display: inline-block;
+    margin-left: 1.5rem;
+    color: #000;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.work-nav ul li:first-child a{
+    margin-left: 0rem;
+}
+.work-nav ul li a:hover{
+    color: #2c98f0;
+}
+.work-row{
+    margin: 10rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-col{
+    width: 40%;
+    height: 30rem;
+    margin: 1.5rem;
+}
+.work-col .work-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.work-col .work-img img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work-col .work-img:hover .overly{
+    opacity: 1;
+    visibility: visible;
+
+}
+.work-col .work-img .overly{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(44, 152, 240,1);
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    transition: all ease-in-out 0.4s;
+    visibility: hidden;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -ms-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+}
+.work-col .work-img .overly .overly-text h4{
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+.work-col .work-img .overly .overly-text p{
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+.work-col .work-img .overly .overly-icons{
+    display: flex;
+}
+.work-col .work-img .overly .overly-icons a:nth-child(1){
+    margin-left: 0rem;
+}
+.work-col .work-img .overly .overly-icons a{
+    margin: 0rem 1rem;
+    padding: 0rem 1rem;
+    color: #000;
+    background-color: #d5d6db;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+/* ============================
+    work Part ends
+===========================*/
+
+/* ============================
+    contact Part Starts
+===========================*/
+#contact{
+    padding: 0rem 2rem 5rem;
+}
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.contact-left{
+    width: 40%;
+}
+.left-col{
+    display: flex;
+    align-items: center;
+    margin:2.5rem 0rem;
+}
+.left-col .left-icon i{
+    font-size: 2.5rem;
+    color: #2c98f0;
+    padding: 2.5rem;
+    background-color: #d5d6db;
+}
+.left-col .left-text{
+    margin-left: 1.5rem;
+}
+.left-col .left-text a{
+    font-size: 1.7rem;
+    color: #000;
+}
+form{
+    width: 50%;
+}
+form input{
+    width: 100%;
+    display: block;
+    padding: 2rem;
+    outline: 0;
+    border: none;
+    background-color: #d5d6db;
+    margin-top: 1.5rem;
+}
+form textarea{
+    width: 100%;
+    display: block;
+    padding: 2rem;
+    outline: 0;
+    border: none;
+    background-color: #d5d6db;
+    margin-top: 1.5rem;
+}
+form button{
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-color: #2c98f0;
+    outline: 0;
+    border: none;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+/* ============================
+    contact Part ends
+===========================*/
+/* ============================
+    media queries Part ends
+===========================*/
+@media (min-width:1029px) and (max-width:1144px){
+    .expertise-row{
+        flex-wrap: wrap;
+    }
+    .expertise-row .expertise-col{
+        width: 28%;
+        margin: 2rem 1.5rem;
+    }
+    
+   
+}
+@media (min-width:901px) and (max-width:1028px){
+    .expertise-row{
+        flex-wrap: wrap;
+    }
+    .expertise-row .expertise-col{
+        width: 28%;
+        margin: 2rem 1.5rem;
+    }
+    .experience-row .experience-col{
+        width: 100%;
+    }
+}
+   
+
+@media (min-width:761px) and (max-width:900px){
+    .menubar{
+        width: 35%;
+        overflow: scroll;
+    }
+    section{
+        width: 65%;
+    }
+    #banner{
+        width: 65%;
+    }
+    .banner-texts{
+        padding: 8rem 0rem;
+    }
+    .banner-texts h1{
+        font-size: 5rem;
+    }
+    .my-skills{
+        flex-wrap: wrap;
+
+    }
+    .my-skills .skill-col{
+        width: 40%;
+        margin: 1.5rem;
+    }
+    .expertise-row .expertise-col{
+        width: 40%; 
+        margin: 2.5rem 1.5rem;
+     }
+     #project{
+         width: 65%;
+     }
+     .skill-row .skill-col-2{
+         width: 100%;
+     }
+     .experience-row .experience-col{
+        width: 100%;
+    }
+    #work{
+        width: 65%;
+    }
+    .work-nav ul{
+        flex-wrap: wrap;
+    }
+    .work-col{
+        width: 100%;
+        margin: 1.5rem 0rem;
+    }
+    #contact{
+        width: 65%;
+        padding: 2rem;
+    }
+    .contact-row{
+        flex-direction: column;
+
+    }
+    .contact-left{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+}
+  
+
+@media (min-width:521px) and (max-width:760px){
+    .menubar{
+        display: none;
+        z-index: 999;
+        width: 40%;
+        overflow: scroll;
+    }
+    #banner{
+        width: 100%;
+    }
+    .banner-texts{
+        text-align: center;
+        padding: 8rem 0rem;
+    }
+    .banner-texts h1{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .banner-texts .btn a{
+        font-size: 1.3rem;
+        letter-spacing: 0.5rem;
+    }
+    body{
+        padding: 0rem 1.5rem;
+    }
+    .nav-icon{
+        display: block;
+    }
+    #about-us{
+        width: 100%;
+    }
+    .my-skills{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .my-skills .skill-col{
+        width: 40%;
+        margin: 1.5rem ;
+    }
+
+    #expertise{
+        width: 100%;
+    }
+    .expertise-row{
+        flex-direction: column;
+    }
+    .expertise-row .expertise-col{
+        width: 100%;
+        display: block;
+        margin: 2.5rem 0rem;
+    }
+    #project{
+        width: 100%;
+    }
+
+    #skill{
+        width: 100%;
+    }
+    .skill-row{
+        flex-direction: column;
+    }
+    .skill-row .skill-col-2{
+        width: 100%;
+        margin: 1.5rem 0rem;
+    }
+    #experience{
+        width: 100%;
+    }
+    .experience-row .experience-col{
+        width: 100%;
+    }
+    #work{
+        width: 100%;
+    }
+    .work-nav ul{
+        flex-wrap: wrap;
+    }
+    .work-col{
+        width: 100%;
+        margin: 1.5rem 0rem;
+    }
+    #contact{
+        width: 100%;
+        padding: 1rem;
+    }
+    .contact-row{
+        flex-direction: column-reverse;
+
+    }
+    .contact-left{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+}
+
+@media (min-width:300px) and (max-width:520px){
+    .menubar{
+        display: none;
+        z-index: 999;
+        width: 80%;
+        overflow: scroll;
+        height: 100vh;
+    }
+    #banner{
+        width: 100%;
+    }
+    .banner-texts{
+        text-align: center;
+        padding: 8rem 0rem;
+    }
+    .banner-texts h1{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .banner-texts .btn a{
+        font-size: 1.3rem;
+        letter-spacing: 0.5rem;
+    }
+    body{
+        padding: 0rem 1rem;
+    }
+    .nav-icon{
+        display: block;
+    }
+    #about-us{
+        width: 100%;
+    }
+    .my-skills{
+        flex-direction: column;
+    }
+    .my-skills .skill-col{
+        width: 100%;
+        margin: 1.5rem 0rem;
+    }
+    #expertise{
+        width: 100%;
+        padding: 1rem;
+    }
+    .expertise-row{
+        flex-direction: column;
+    }
+    .expertise-row .expertise-col{
+        width: 100%;
+        display: block;
+        margin: 2.5rem 0rem;
+    }
+    #project{
+        width: 100%;
+    }
+    .project-row{
+        flex-wrap: wrap;
+    }
+    .project-col{
+        width: 45%;
+    }
+    #skill{
+        width: 100%;
+    }
+    .skill-row{
+        flex-direction: column;
+    }
+    .skill-row .skill-col-2{
+        width: 100%;
+        margin: 1.5rem 0rem;
+    }
+    #experience{
+        width: 100%;
+    }
+    .experience-row .experience-col{
+        width: 100%;
+    }
+    .experience-col .ex-icon:after{
+        height: 90%;
+    }
+    #work{
+        width: 100%;
+    }
+    .work-nav ul{
+        flex-wrap: wrap;
+    }
+    .work-col{
+        width: 100%;
+        margin: 1.5rem 0rem;
+    }
+    #contact{
+        width: 100%;
+        padding: 1rem;
+    }
+    .contact-row{
+        flex-direction: column-reverse;
+
+    }
+    .contact-left{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+}
+/* ============================
+    media queries Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
+/* ============================
+    Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
+/* ============================
+    Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
+/* ============================
+    Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
+/* ============================
+    Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
+/* ============================
+    Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
+
+/* ============================
+    Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
+/* ============================
+    Part Starts
+===========================*/
+/* ============================
+    Part ends
+===========================*/
